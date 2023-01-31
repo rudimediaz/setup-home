@@ -68,6 +68,11 @@
                 enableBashIntegration = true;
                 enableZshIntegration = true;
                 enableFishIntegration = true;
+                settings = {
+                  container = {
+                   format =  "[$symbol]($style) "
+                  };
+                };
             };
 
             programs.direnv = {
