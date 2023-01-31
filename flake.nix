@@ -35,7 +35,8 @@
               nodePackages.typescript-language-server
               nil
               gh
-              rnix-lsp 
+              rnix-lsp
+              tree-sitter
             ];
 
             programs.git = {
@@ -70,7 +71,7 @@
                 enableFishIntegration = true;
                 settings = {
                   container = {
-                   format =  "[$symbol]($style) "
+                   format =  "[$symbol]($style) ";
                   };
                 };
             };
