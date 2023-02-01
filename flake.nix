@@ -38,6 +38,9 @@
               rnix-lsp
               #tree-sitter
             ];
+
+            programs.direnv.nix-direnv.enable = true;
+
            /*
             programs.git = {
               enable = true;
