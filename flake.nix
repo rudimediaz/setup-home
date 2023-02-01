@@ -34,36 +34,46 @@
               nodePackages.svelte-language-server 
               nodePackages.typescript-language-server
               nil
-              gh
+              #gh
               rnix-lsp
-              tree-sitter
+              #tree-sitter
             ];
-
+           /*
             programs.git = {
               enable = true;
               extraConfig = {
                 init = {  defaultBranch = "main";  };
                 user = { name = "Rudhi Mediastara"; email = "rudhi.mediastara@gmail.com"; };
               };
-            }; 
-            
+            };
+            */ 
+
+            /*
             programs.zsh = {
               enable = false;
               enableVteIntegration = true;
             };
+            */
 
+            /*
             programs.fish = {
                enable = true;
             };
+            */
 
+            /*
             programs.tmux = {
               enable = true;
               plugins = with pkgs; [
                 { plugin = tmuxPlugins.power-theme; extraConfig ="set -g @tmux_power_theme 'snow'";  }
               ];
             };
+            */
+            /*
             programs.bat.enable = true;
+            */
 
+            /*
             programs.starship = {
                 enable = true;
                 enableBashIntegration = true;
@@ -75,14 +85,17 @@
                   };
                 };
             };
-
+            */
+            
+           /*
             programs.direnv = {
               enable = true;
               enableBashIntegration = true;
               enableZshIntegration = true;
               nix-direnv.enable = true;
             };
-            
+            */
+            /*
             programs.helix = {
                enable = true;
                settings = {
@@ -95,7 +108,9 @@
                  }; 
                };
             };
+            */
 
+            /*
             programs.neovim = {
               enable = true;
               plugins = with pkgs.vimPlugins; [
@@ -103,7 +118,7 @@
               ];
               defaultEditor = true;
             };
-            
+            */
           })
         ];
 
