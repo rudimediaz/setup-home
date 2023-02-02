@@ -34,15 +34,11 @@
               nodePackages.svelte-language-server 
               nodePackages.typescript-language-server
               nil
-              #gh
               rnix-lsp
-              #tree-sitter
-              nix-direnv
             ];
 
-            #programs.direnv.nix-direnv.enable = true;
-
-           /*
+           
+           
             programs.git = {
               enable = true;
               extraConfig = {
@@ -50,7 +46,11 @@
                 user = { name = "Rudhi Mediastara"; email = "rudhi.mediastara@gmail.com"; };
               };
             };
-            */ 
+
+            programs.bash = {
+              enable = true;
+            };
+            
 
             /*
             programs.zsh = {
@@ -91,14 +91,14 @@
             };
             */
             
-           /*
+           
             programs.direnv = {
               enable = true;
               enableBashIntegration = true;
               enableZshIntegration = true;
               nix-direnv.enable = true;
             };
-            */
+            
             /*
             programs.helix = {
                enable = true;
