@@ -36,6 +36,8 @@
               nil
               rnix-lsp
               gh
+              ripgrep
+              fd
             ];
 
            
@@ -64,14 +66,16 @@
             };
             
 
-            /*
+            
             programs.tmux = {
               enable = true;
+              /*
               plugins = with pkgs; [
                 { plugin = tmuxPlugins.power-theme; extraConfig ="set -g @tmux_power_theme 'snow'";  }
               ];
+              */
             };
-            */
+            
             /*
             programs.bat.enable = true;
             */
@@ -98,7 +102,7 @@
               nix-direnv.enable = true;
             };
             
-            /*
+            
             programs.helix = {
                enable = true;
                settings = {
@@ -111,9 +115,9 @@
                  }; 
                };
             };
-            */
+            
 
-            /*
+            
             programs.neovim = {
               enable = true;
               plugins = with pkgs.vimPlugins; [
@@ -121,7 +125,7 @@
               ];
               defaultEditor = true;
             };
-            */
+            
           })
         ];
 
