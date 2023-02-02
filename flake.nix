@@ -76,7 +76,7 @@
             programs.bat.enable = true;
             */
 
-            /*
+            
             programs.starship = {
                 enable = true;
                 enableBashIntegration = true;
@@ -88,7 +88,7 @@
                   };
                 };
             };
-            */
+            
             
            
             programs.direnv = {
