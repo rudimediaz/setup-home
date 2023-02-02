@@ -35,6 +35,7 @@
               nodePackages.typescript-language-server
               nil
               rnix-lsp
+              gh
             ];
 
            
