@@ -38,6 +38,7 @@
               gh
               ripgrep
               fd
+              fira-code
             ];
 
            
@@ -69,11 +70,11 @@
             
             programs.tmux = {
               enable = true;
-              /*
+              
               plugins = with pkgs; [
                 { plugin = tmuxPlugins.power-theme; extraConfig ="set -g @tmux_power_theme 'snow'";  }
               ];
-              */
+              
             };
             
             /*
@@ -125,6 +126,8 @@
               ];
               defaultEditor = true;
             };
+
+            fonts.fontconfig.enable = true;
             
           })
         ];
