@@ -70,7 +70,7 @@
             
             programs.tmux = {
               enable = true;
-              
+              extraConfig = "set -g mouse on"; 
               plugins = with pkgs; [
                 { plugin = tmuxPlugins.power-theme; extraConfig ="set -g @tmux_power_theme 'snow'";  }
               ];
