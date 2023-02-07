@@ -33,6 +33,8 @@
               nodePackages.prettier 
               nodePackages.svelte-language-server 
               nodePackages.typescript-language-server
+              nodePackages.wrangler
+              netlify-cli
               nil
               rnix-lsp
               gh
