@@ -34,7 +34,7 @@
               nodePackages.svelte-language-server 
               nodePackages.typescript-language-server
               #nodePackages.wrangler
-              netlify-cli
+              #netlify-cli
               nil
               rnix-lsp
               gh
