@@ -28,11 +28,11 @@
             
             programs.home-manager.enable = true;
             home.packages = with pkgs; [ 
-              nodejs nodePackages.pnpm
-              nodePackages.vscode-langservers-extracted
-              nodePackages.prettier 
-              nodePackages.svelte-language-server 
-              nodePackages.typescript-language-server
+              #nodejs nodePackages.pnpm
+              #nodePackages.vscode-langservers-extracted
+              #nodePackages.prettier 
+              #nodePackages.svelte-language-server 
+              #nodePackages.typescript-language-server
               #nodePackages.wrangler
               #netlify-cli
               nil
