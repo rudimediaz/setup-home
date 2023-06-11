@@ -37,14 +37,12 @@
               #netlify-cli
               nil
               rnix-lsp
-              gh
               ripgrep
               fd
-              fira-code
             ];
 
            
-           
+          /* 
             programs.git = {
               enable = true;
               extraConfig = {
@@ -52,6 +50,7 @@
                 user = { name = "Rudhi Mediastara"; email = "rudhi.mediastara@gmail.com"; };
               };
             };
+         */
 
            
             
