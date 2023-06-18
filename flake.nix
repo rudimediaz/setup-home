@@ -40,6 +40,8 @@
               ripgrep
               fd
               rustup
+	      nodejs_18
+	      nodePackages.prettier
             ];
 
            
